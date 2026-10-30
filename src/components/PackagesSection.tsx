@@ -14,14 +14,18 @@ const PackageCard = ({ pkg }: { pkg: Package }) => {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div className="group bg-white rounded-2xl shadow-card hover:shadow-card-hover card-hover overflow-hidden border border-slate-100 flex flex-col">
+    <article className="group bg-white rounded-2xl shadow-card hover:shadow-card-hover card-hover overflow-hidden border border-slate-100 flex flex-col">
       {/* Image */}
       <div className="relative h-52 overflow-hidden">
         <img
           src={pkg.image}
-          alt={pkg.name}
+          alt={`${pkg.name} – taxi package from Ujjain by Sanvariya Tour & Travels`}
+          width={480}
+          height={208}
+          loading="lazy"
+          decoding="async"
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-          onError={(e) => { (e.target as HTMLImageElement).src = '/images/mahakal.png'; }}
+          onError={(e) => { (e.target as HTMLImageElement).src = '/images/mahakal.jpg'; }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/80 via-brand-navy/20 to-transparent" />
 
@@ -100,7 +104,7 @@ const PackageCard = ({ pkg }: { pkg: Package }) => {
           <MessageSquare size={15} /> Get Free Quote
         </a>
       </div>
-    </div>
+    </article>
   );
 };
 
@@ -109,10 +113,11 @@ const PackagesSection = () => (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="text-center mb-16">
         <p className="text-brand-saffron font-semibold tracking-widest text-sm uppercase mb-3">Curated Itineraries</p>
-        <h2 className="section-heading mb-4">Popular Tour Packages</h2>
+        <h2 id="packages-heading" className="section-heading mb-4">Ujjain Pilgrimage &amp; Tour Packages</h2>
         <div className="divider-saffron mx-auto mb-6" />
         <p className="text-slate-500 max-w-2xl mx-auto text-lg">
-          Carefully crafted pilgrimage and sightseeing packages — from local Ujjain darshan to multi-day all-India yatras.
+          Carefully crafted pilgrimage and sightseeing packages — from local Ujjain darshan and Mahakal taxi tours
+          to Omkareshwar, Baglamukhi, Khatu Shyam, Somnath and multi-day all-India yatras.
         </p>
       </div>
 

@@ -13,7 +13,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-500 ${isScrolled ? 'bg-brand-navy/98 shadow-2xl py-1 backdrop-blur-md' : 'bg-gradient-to-b from-brand-navy/80 via-brand-navy/40 to-transparent backdrop-blur-sm py-2'}`}>
+    <nav aria-label="Main navigation" className={`fixed w-full z-50 transition-all duration-500 ${isScrolled ? 'bg-brand-navy/98 shadow-2xl py-1 backdrop-blur-md' : 'bg-gradient-to-b from-brand-navy/80 via-brand-navy/40 to-transparent backdrop-blur-sm py-2'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 md:h-20">
           {/* Logo */}

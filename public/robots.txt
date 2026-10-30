@@ -1,0 +1,17 @@
+# robots.txt for Sanvariya Tour & Travels
+# https://sanvariya-tour-website.vercel.app/
+
+User-agent: *
+Allow: /
+
+# Disallow server-side non-public paths
+Disallow: /api/
+Disallow: /_vercel/
+
+# Allow important assets for rendering
+Allow: /images/
+Allow: /icons.svg
+Allow: /favicon.svg
+
+# Sitemap location
+Sitemap: https://sanvariya-tour-website.vercel.app/sitemap.xml
