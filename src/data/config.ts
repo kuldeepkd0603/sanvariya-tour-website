@@ -246,8 +246,8 @@ export const config = {
     { id: 'd2', name: 'Omkareshwar', hindi: 'ओंकारेश्वर', city: 'Khandwa', desc: 'Island-shaped Jyotirlinga on the sacred Narmada river. Book Ujjain to Omkareshwar cab package.', image: '/images/omkareshwar.jpg' },
     { id: 'd3', name: 'Maa Baglamukhi', hindi: 'माँ बगलामुखी', city: 'Nalkheda', desc: 'Powerful Shakti Peeth attracting thousands of devotees. Book taxi from Ujjain to Baglamukhi Mata.', image: '/images/baglamukhi.jpg' },
     { id: 'd4', name: 'Dewas Temples', hindi: 'देवास माता', city: 'Dewas', desc: 'Twin temple hilltop — Maa Chamunda and Tulja Bhavani. Book Ujjain to Dewas taxi.', image: '/images/dewas.jpg' },
-    { id: 'd5', name: 'Indore City', hindi: 'इन्दौर', city: 'Indore', desc: 'Heart of MP — Rajwada, Khajrana Ganesh, Sarafa Bazaar. Book cab from Ujjain to Indore.', image: '/images/dewas.jpg' },
-    { id: 'd6', name: 'Somnath Jyotirlinga', hindi: 'सोमनाथ', city: 'Gujarat', desc: 'First of the 12 Jyotirlingas, on the coast of Gujarat. Book all-India pilgrimage cab.', image: '/images/mahakal.jpg' },
+    { id: 'd5', name: 'Indore City', hindi: 'इन्दौर', city: 'Indore', desc: 'Heart of MP — Rajwada, Khajrana Ganesh, Sarafa Bazaar. Book cab from Ujjain to Indore.', image: '/images/indore.jpg' },
+    { id: 'd6', name: 'Somnath Jyotirlinga', hindi: 'सोमनाथ', city: 'Gujarat', desc: 'First of the 12 Jyotirlingas, on the coast of Gujarat. Book all-India pilgrimage cab.', image: '/images/somnath.jpg' },
   ],
 
   testimonials: [
