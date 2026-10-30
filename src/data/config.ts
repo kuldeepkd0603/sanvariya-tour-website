@@ -111,9 +111,9 @@ export const config = {
   ],
 
   services: [
-    { id: 1, name: 'Mahakal Darshan Taxi', icon: '🛕', description: 'Safe and timely taxi service for Mahakaleshwar Jyotirlinga darshan in Ujjain. Early morning Bhasma Aarti pickup available from 2:30 AM.', image: '/images/mahakal.jpg' },
-    { id: 2, name: 'Ujjain Local Sightseeing', icon: '🗺️', description: 'Complete Ujjain darshan cab covering Mahakal, Kal Bhairav, Harsiddhi Mata, Ram Ghat, Sandipani Ashram and more.', image: '/images/mahakal.jpg' },
-    { id: 3, name: 'Airport Pickup & Drop', icon: '✈️', description: 'Reliable Indore airport transfer cab. Flight tracking available. On-time pickup guaranteed.', image: '/images/sedan.jpg' },
+    { id: 1, name: 'Mahakal Darshan Taxi', icon: '🛕', description: 'Safe and timely taxi service for Mahakaleshwar Jyotirlinga darshan in Ujjain. Early morning Bhasma Aarti pickup available from 2:30 AM.', image: '/images/mahakaldarshan.png' },
+    { id: 2, name: 'Ujjain Local Sightseeing', icon: '🗺️', description: 'Complete Ujjain darshan cab covering Mahakal, Kal Bhairav, Harsiddhi Mata, Ram Ghat, Sandipani Ashram and more.', image: '/images/ujjaindarshan.png' },
+    { id: 3, name: 'Airport Pickup & Drop', icon: '✈️', description: 'Reliable Indore airport transfer cab. Flight tracking available. On-time pickup guaranteed.', image: '/images/airport.png' },
     { id: 4, name: 'Outstation Taxi', icon: '🛣️', description: 'Comfortable outstation cab service from Ujjain, Indore and Dewas across Madhya Pradesh and all-India routes.', image: '/images/suv.jpg' },
     { id: 5, name: 'Religious Pilgrimage Tours', icon: '🙏', description: 'Complete pilgrimage taxi packages covering Ujjain, Omkareshwar, Baglamukhi, Somnath, Khatu Shyam and more.', image: '/images/mahakal.jpg' },
     { id: 6, name: 'Corporate Travel', icon: '💼', description: 'Professional corporate cab service in Ujjain and Indore with GST invoices, experienced drivers and premium vehicles.', image: '/images/suv.jpg' },
