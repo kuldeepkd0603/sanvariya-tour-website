@@ -37,7 +37,7 @@ const VehicleSection = () => (
                 loading={index < 2 ? 'eager' : 'lazy'}
                 decoding="async"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                onError={(e) => { (e.target as HTMLImageElement).src = '/images/sedan.jpg'; }}
+                onError={(e) => { (e.target as HTMLImageElement).src = '/images/sedan.png'; }}
               />
               <div className={`absolute top-4 left-4 ${v.badgeColor} text-white text-xs font-bold px-3 py-1 rounded-full shadow`}>
                 {v.badge}
