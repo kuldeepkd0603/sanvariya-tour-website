@@ -1,4 +1,4 @@
-import { Users, Snowflake, CheckCircle, Star } from 'lucide-react';
+import { Users, Snowflake, CheckCircle } from 'lucide-react';
 import { config } from '../data/config';
 
 const VehicleSection = () => (
